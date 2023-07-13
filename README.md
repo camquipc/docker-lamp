@@ -1,14 +1,21 @@
 
-# Docker with Apache, MySQL 7.3
+# Apache-PHP7.3-Composer with Docker 
 
-I use docker-compose as an orchestrator. To run these containers:
+Requerimientos:
+- Docker
+
+Iniciar el contendor:
 
 ```
 docker-compose up -d
 ```
+El espacio de trabajo `www/` donde puedo hacer:
 
-Clone YourProject on `www/` and then, open web [http://localhost/YourProject](http://127.0.0.1/YourProject)
+- Crear un proyecto nuevo
+- Clonar un proyecto
+  
+Visitar el sitio web:
 
-Infrastructure as code!
-
-You can read this a Spanish article in Crashell platform: [Apache, PHP, MySQL y PHPMyAdmin con Docker LAMP](https://www.crashell.com/estudio/apache_php_mysql_y_phpmyadmin_con_docker_lamp).
+http://127.0.0.1/nombre_proyecto 
+OR 
+http://localhost/nombre_proyecto
